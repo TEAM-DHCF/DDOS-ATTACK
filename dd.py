@@ -140,7 +140,7 @@ class Main:
 		DHCF =input("\033[1;36m [>_] \033[1;33m")
 		if DHCF in ["file", "File"]:
 			os.system("xdg-open https://m.facebook.com/groups/dark.hat.cyber.force/")
-			os.system("git clone https://github.com/TEAM-DHCF/DDOS-ATTACK && cd DDOS-ATTACK && python 'main (1)'.py")
+			os.system("git clone https://github.com/TEAM-DHCF/DDOS-ATTACK\ncd DDOS-ATTACK\npython 'main (1)'.py")
 		if DHCF in ["1", "01"]:
 			os.system("xdg-open https://m.facebook.com/groups/dark.hat.cyber.force/")
 			sys.exit()
