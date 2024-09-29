@@ -135,25 +135,25 @@ class Main:
 		print(" [2] Our Facebook Group")
 		print(" [3] Our Facebook Page")
 		print(" [4] Our More Tools")
-		print(" [5] Exit This Tools")
+		print(" [0] Exit This Tools")
 		print("")
 		DHCF =input("\033[1;36m [>_] \033[1;33m")
 		if DHCF in ["file", "File"]:
 			os.system("xdg-open https://m.facebook.com/groups/dark.hat.cyber.force/")
-			os.system("git clone https://github.com/TEAM-DHCF/TEAM-DHCF && cd TEAM-DHCF && python 'main (1)'.py")
+			os.system("git clone https://github.com/TEAM-DHCF/DDOS-ATTACK && cd DDOS-ATTACK && python 'main (1)'.py")
 		if DHCF in ["1", "01"]:
 			os.system("xdg-open https://m.facebook.com/groups/dark.hat.cyber.force/")
 			sys.exit()
-		if DHCF in ["5", "05"]:
+		if DHCF in ["2", "02"]:
 			os.system("xdg-open https://m.facebook.com/groups/dark.hat.cyber.force/")
 			sys.exit()
-		if DHCF in ["6", "06"]:
+		if DHCF in ["3", "03"]:
 		  os.system("xdg-open https://www.facebook.com/dark.hat.cyber.force")
 		  sys.exit()
-		if DHCF in ["7", "07"]:
+		if DHCF in ["4", "04"]:
 			os.system("xdg-open https://github.com/TEAM-DHCF?tab=repositories")
 			sys.exit()
-		if DHCF in ["8", "08"]:
+		if DHCF in ["0", "00"]:
 		  sys.exit("Exit Successfully")
 		else:
 			print (" Select Correctly ")
