@@ -9,6 +9,7 @@ pkg update
 pkg upgrade
 pkg install python
 pkg install git
+pip install distutils
 pkg install ruby
 gem install lolcat
 rm -rf DDOS-ATTACK
